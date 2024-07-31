@@ -152,7 +152,7 @@ const VideoCarousel = () => {
                                     <source src={list.video} type="video/mp4" />
                                 </video>
                             </div>
-                            <div className="absolute top-12 left-[5&] z-10">
+                            <div className="absolute top-12 left-[5%] z-10">
                                 {list.textLists.map((text) => (
                                     <p key={text} className="md:text-2xl text-xl font-medium">
                                         {text}
